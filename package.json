@@ -1,0 +1,22 @@
+{
+  "name": "pnwreport_test",
+  "version": "0.0.1",
+  "author": "Brandon Kvarda: update by Vijay Kumar",
+  "license": "BSD-2-Clause",
+  "description": "Generates CSVs and JSON",
+  "dependencies": {
+    "express": "~4.10.6",
+    "httpntlm": "~1.5.0",
+    "nice-json2csv": "~0.2.0",
+    "cheerio": "*",
+    "adm-zip": "*",
+    "plotly": "*",
+    "xml2json": "*",
+    "body-parser": "*",
+    "connect": "*"
+  },
+  "engines": {
+    "node": "6.9.2",
+    "npm": "3.10.9"
+  }
+}

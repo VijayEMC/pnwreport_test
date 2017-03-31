@@ -1,0 +1,10 @@
+---
+applications:
+- name: pnwreport_test
+  buildpack: nodejs_buildpack
+  memory: 512MB
+  disk-quota: 200MB
+  host: pnwreport_test
+  domain: bellevuelab.isus.emc.com
+  command: node server/app.js
+  
